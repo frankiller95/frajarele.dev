@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "title": "frajarele.dev — Portafolio",
+    "description": "Portafolio de desarrollo de software."
+  },
+  "nav": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "role": "Ingeniero de software",
+    "cta": "Ver proyectos"
+  },
+  "language": {
+    "label": "Idioma",
+    "es": "Español",
+    "en": "Inglés"
+  },
+  "theme": {
+    "toLight": "Cambiar a modo claro",
+    "toDark": "Cambiar a modo oscuro"
+  }
+}
