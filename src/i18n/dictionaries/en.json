@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Francisco Javier Restrepo — Portfolio",
-    "description": "Portfolio of Francisco Javier Restrepo, frontend developer."
+    "title": "Francisco Javier Restrepo — Full-Stack Developer",
+    "description": "Portfolio of Francisco Javier Restrepo, full-stack developer with 5+ years in Laravel, React, Vue.js and AWS."
   },
   "nav": {
     "experience": "Experience",
@@ -19,126 +19,166 @@
     "toDark": "Switch to dark mode"
   },
   "hero": {
-    "badge": "Mid-level Frontend · available for jobs and freelance",
+    "badge": "Mid-level Full-Stack · available remote / hybrid",
     "greeting": "Hi, I'm",
-    "titleStart": "I build scalable interfaces for",
-    "titleHighlight": "real products.",
-    "description": "Mid-level Frontend Developer with 5+ years in React, Next.js and TypeScript. I've built for HR, banking, automotive and digital services, using Clean Architecture, automated testing and a focus on accessibility and performance. Try the terminal →",
-    "ctaPrimary": "View experience →",
+    "titleStart": "I build robust web applications that",
+    "titleHighlight": "scale in the cloud.",
+    "description": "Full-Stack Developer with 5+ years in PHP/Laravel, React, Vue.js and Next.js. I design solid backends, high-performance interfaces and high-availability deployments with Docker, Kubernetes and CI/CD on AWS. Try the terminal →",
+    "ctaPrimary": "See experience →",
     "ctaSecondary": "LinkedIn ↗"
   },
   "highlights": {
     "ariaLabel": "Key figures",
     "items": [
-      { "value": "5+", "label": "years of experience" },
-      { "value": "6", "label": "companies and tech communities" },
-      { "value": "5", "label": "modules of an ATS in production" },
-      { "value": "E2E", "label": "unit and end-to-end tests" }
+      {
+        "value": "5+",
+        "label": "years of experience"
+      },
+      {
+        "value": "4",
+        "label": "tech and software companies"
+      },
+      {
+        "value": "HA",
+        "label": "critical platforms on AWS and Kubernetes"
+      },
+      {
+        "value": "200+",
+        "label": "users served in IT support"
+      }
     ]
   },
   "about": {
     "eyebrow": "About me · How I work",
     "titleStart": "I build with",
     "titleHighlight": "whoever maintains the code next in mind.",
-    "description": "I like to understand the problem before writing a line: define the architecture, care about interface details and leave code the team can read, test and improve.",
+    "description": "I'm a self-driven problem solver. I like to understand the business before writing a line, take care of the backend architecture and the interface experience, and leave clean code the team can maintain.",
     "photoAlt": "Portrait of Francisco Javier Restrepo",
-    "badge": "Colombia · remote",
+    "badge": "Cali, Colombia · remote",
     "steps": [
       {
-        "title": "I understand the problem and design the solution",
-        "text": "I read the requirements and the Figma, and define architecture, types and the API contract before writing code."
+        "title": "I understand the business and design the solution",
+        "text": "I turn requirements into architecture: data model, Laravel services and the API contract before writing code."
       },
       {
-        "title": "I build with quality from the start",
-        "text": "Reusable components, strict typing, accessibility and tests as part of the work, not an afterthought."
+        "title": "I build end to end",
+        "text": "Backends in PHP/Laravel or Node.js, interfaces in React, Vue.js or Next.js, and hybrid mobile apps with Ionic when the project needs it."
       },
       {
-        "title": "I optimize my flow with good tools",
-        "text": "I use AI assistants for refactors and repetitive tests, and verify every change against real API responses before integrating it."
+        "title": "I deploy with high availability",
+        "text": "Docker containers, Kubernetes ReplicaSets and CI/CD pipelines on AWS so critical platforms stay up."
       },
       {
-        "title": "I share my decisions in code review",
-        "text": "I open clear, easy-to-review PRs, explain the reasoning behind each decision and discuss it with the team. I also review my teammates' PRs."
+        "title": "I work agile and with the team",
+        "text": "Scrum, technical leadership and clear communication, in English too with international stakeholders."
       }
     ]
   },
   "experience": {
     "eyebrow": "Experience",
     "title": "Where I've worked",
-    "subtitle": "Six teams, four sectors and the same focus: maintainable interfaces that make it to production.",
-    "sectors": ["HR · ATS", "Banking", "Automotive", "Digital services"],
+    "subtitle": "Four companies and 5+ years shipping products to production: from IT support to leading full-stack cloud projects.",
+    "sectors": [
+      "Digital agency",
+      "Retail · CRM",
+      "B2B software · POS",
+      "Banking · IT support"
+    ],
     "current": "Current",
     "items": [
       {
-        "company": "Company A",
-        "period": "Mar 2026 – present",
-        "role": "Frontend Developer · React / Next.js",
-        "description": "Recruiting platform (ATS) and marketing site. Built 5 complete modules and took part in the migration to Clean Architecture.",
+        "company": "Geko Estudio S.A.S",
+        "period": "Jun 2022 – now",
+        "role": "Full-Stack Developer · Laravel / React / Vue",
+        "description": "I lead full-stack development for Grupo Coomeva: high-availability platforms on AWS and Kubernetes, a real-time 2026 World Cup prediction game with Laravel Reverb, the QuickPass hybrid app with Ionic 8 and a video game e-commerce with Next.js and Strapi.",
         "tags": [
-          { "label": "React 19", "highlight": true },
-          { "label": "Clean Architecture", "highlight": true },
-          { "label": "TanStack Query" },
-          { "label": "Zustand" },
-          { "label": "Zod" },
-          { "label": "Playwright" }
+          {
+            "label": "Laravel",
+            "highlight": true
+          },
+          {
+            "label": "React",
+            "highlight": true
+          },
+          {
+            "label": "Vue.js"
+          },
+          {
+            "label": "Kubernetes"
+          },
+          {
+            "label": "AWS"
+          },
+          {
+            "label": "Laravel Reverb"
+          },
+          {
+            "label": "Ionic 8"
+          },
+          {
+            "label": "Next.js"
+          },
+          {
+            "label": "WordPress"
+          }
         ]
       },
       {
-        "company": "Community B",
-        "period": "Mar 2025 – Mar 2026",
-        "role": "Frontend Developer · React",
-        "description": "Business products in Scrum teams of 7 to 10 people, with real-time features and code review.",
+        "company": "Tucelular S.A.S (tcshop.co)",
+        "period": "Apr 2021 – May 2022",
+        "role": "Lead Web Developer · PHP / Laravel",
+        "description": "Led the development of the company's internal CRM and built a product warranty module that automates communication and tracking with suppliers.",
         "tags": [
-          { "label": "Next.js", "highlight": true },
-          { "label": "WebSockets" },
-          { "label": "Tailwind" },
-          { "label": "Jest" },
-          { "label": "Cypress" }
+          {
+            "label": "Laravel",
+            "highlight": true
+          },
+          {
+            "label": "PHP",
+            "highlight": true
+          },
+          {
+            "label": "Blade"
+          },
+          {
+            "label": "MySQL"
+          },
+          {
+            "label": "HTML5"
+          }
         ]
       },
       {
-        "company": "Company C",
-        "period": "Dec 2022 – Feb 2025",
-        "role": "Software Developer · React / Next.js",
-        "description": "Enterprise and mobile apps for banking institutions: document management and digital signing.",
+        "company": "Sumapos Software",
+        "period": "Jun 2019 – Mar 2021",
+        "role": "Web Developer",
+        "description": "Lead developer on national and international B2B software projects, communicating requirements in English with stakeholders and supporting the company's POS software.",
         "tags": [
-          { "label": "Next.js", "highlight": true },
-          { "label": "React Native", "highlight": true },
-          { "label": "AWS S3" },
-          { "label": "Node.js" }
+          {
+            "label": "B2B software",
+            "highlight": true
+          },
+          {
+            "label": "POS"
+          },
+          {
+            "label": "English"
+          }
         ]
       },
       {
-        "company": "Company D",
-        "period": "Apr 2022 – Jun 2022",
-        "role": "Frontend Developer · React / Vue",
-        "description": "SPA for appointments, maintenance and sales for car dealerships.",
+        "company": "Asicamericas S.A.S",
+        "period": "Dec 2018 – Jun 2019",
+        "role": "On-site IT Support Technician",
+        "description": "Level 2 on-site support at Banco Davivienda's headquarters and branches in Cali, resolving incidents for 200+ employees.",
         "tags": [
-          { "label": "React", "highlight": true },
-          { "label": "Vue.js", "highlight": true },
-          { "label": "REST" },
-          { "label": "SCSS" }
-        ]
-      },
-      {
-        "company": "Company E",
-        "period": "Jan 2021 – Jan 2022",
-        "role": "Web Frontend Developer · React",
-        "description": "Development and maintenance of web applications with React and REST APIs.",
-        "tags": [
-          { "label": "React", "highlight": true },
-          { "label": "JavaScript" },
-          { "label": "REST" }
-        ]
-      },
-      {
-        "company": "Company F",
-        "period": "May 2020 – Sep 2020",
-        "role": "Web Developer · React / Vue",
-        "description": "Migrated client applications from Vue.js to React.js, with CI/CD.",
-        "tags": [
-          { "label": "Vue → React", "highlight": true },
-          { "label": "CI/CD" }
+          {
+            "label": "Level 2 support",
+            "highlight": true
+          },
+          {
+            "label": "Service Manager"
+          }
         ]
       }
     ]
@@ -165,63 +205,87 @@
       "corporate-site": {
         "title": "Corporate website",
         "description": "Multilingual institutional site with blog, contact form and SEO optimization.",
-        "badges": ["Solo", "Real client"],
+        "badges": [
+          "Solo",
+          "Real client"
+        ],
         "architecture": "Next.js App Router · static pages · headless CMS",
         "stack": "Next.js · TypeScript · Tailwind CSS · Contentful"
       },
       "product-landing": {
         "title": "Product landing page",
         "description": "Landing page with animations, A/B testing and fast loading (LCP under 2 s).",
-        "badges": ["Solo", "Live demo"],
+        "badges": [
+          "Solo",
+          "Live demo"
+        ],
         "architecture": "Sections as components · optimized images · event-based analytics",
         "stack": "Next.js · Tailwind CSS · Framer Motion"
       },
       "restaurant-site": {
         "title": "Restaurant website",
         "description": "Digital menu, online reservations and gallery, optimized for mobile.",
-        "badges": ["Freelance"],
+        "badges": [
+          "Freelance"
+        ],
         "architecture": "Static site · validated form · reservations integration",
         "stack": "Astro · TypeScript · Tailwind CSS"
       },
       "ats-platform": {
         "title": "Recruiting platform",
         "description": "Management of job openings, candidates and interviews with boards and notifications.",
-        "badges": ["Team of 8", "Real client"],
+        "badges": [
+          "Team of 8",
+          "Real client"
+        ],
         "architecture": "Layered Clean Architecture · Service → Use Case → Mapper",
         "stack": "React · TypeScript · TanStack Query · Zustand"
       },
       "analytics-dashboard": {
         "title": "Analytics dashboard",
         "description": "Real-time metrics visualization with filters and CSV export.",
-        "badges": ["Team of 5", "Fintech"],
+        "badges": [
+          "Team of 5",
+          "Fintech"
+        ],
         "architecture": "Atomic Design · data hooks · WebSockets",
         "stack": "React · Recharts · Tailwind CSS"
       },
       "inventory-system": {
         "title": "Inventory system",
         "description": "Stock, supplier and purchase order control with roles and permissions.",
-        "badges": ["Team of 4"],
+        "badges": [
+          "Team of 4"
+        ],
         "architecture": "Domain modules · REST API · role-based permissions",
         "stack": "Next.js · Zod · React Hook Form"
       },
       "booking-app": {
         "title": "Booking app",
         "description": "Appointment booking with calendar, reminders and payments.",
-        "badges": ["Solo", "iOS · Android"],
+        "badges": [
+          "Solo",
+          "iOS · Android"
+        ],
         "architecture": "Stack navigation · global state · push notifications",
         "stack": "React Native · Expo · TypeScript"
       },
       "fitness-app": {
         "title": "Fitness tracking app",
         "description": "Routines, progress and stats with offline sync.",
-        "badges": ["Team of 3"],
+        "badges": [
+          "Team of 3"
+        ],
         "architecture": "Offline-first · local database · background sync",
         "stack": "React Native · SQLite · Zustand"
       },
       "delivery-app": {
         "title": "Delivery app",
         "description": "Real-time order tracking on a map for customers and couriers.",
-        "badges": ["Team of 6", "Logistics"],
+        "badges": [
+          "Team of 6",
+          "Logistics"
+        ],
         "architecture": "Real time with WebSockets · maps · push notifications",
         "stack": "React Native · Maps · Socket.io"
       }
@@ -237,11 +301,28 @@
         "title": "Layered architecture",
         "description": "I keep business logic separate from the framework: each layer has a single responsibility, so the database or the API can change without rewriting the rules.",
         "steps": [
-          { "label": "Route / API", "note": "REST contract" },
-          { "label": "Controller", "note": "validates the request" },
-          { "label": "Service", "note": "business rule", "highlight": true },
-          { "label": "Repository", "note": "SQL queries" },
-          { "label": "Database", "note": "MySQL · PostgreSQL", "highlight": true }
+          {
+            "label": "Route / API",
+            "note": "REST contract"
+          },
+          {
+            "label": "Controller",
+            "note": "validates the request"
+          },
+          {
+            "label": "Service",
+            "note": "business rule",
+            "highlight": true
+          },
+          {
+            "label": "Repository",
+            "note": "SQL queries"
+          },
+          {
+            "label": "Database",
+            "note": "MySQL · PostgreSQL",
+            "highlight": true
+          }
         ]
       },
       {
@@ -249,22 +330,92 @@
         "title": "Deployment and high availability",
         "description": "Every change goes through an automated pipeline and reaches production in replicated containers, so critical platforms stay up even if a replica fails.",
         "steps": [
-          { "label": "Code", "note": "Git · pull request" },
-          { "label": "CI/CD", "note": "GitHub Actions · GitLab CI" },
-          { "label": "Containers", "note": "Docker", "highlight": true },
-          { "label": "Kubernetes", "note": "ReplicaSets for HA" },
-          { "label": "AWS", "note": "S3 · CloudWatch", "highlight": true }
+          {
+            "label": "Code",
+            "note": "Git · pull request"
+          },
+          {
+            "label": "CI/CD",
+            "note": "GitHub Actions · GitLab CI"
+          },
+          {
+            "label": "Containers",
+            "note": "Docker",
+            "highlight": true
+          },
+          {
+            "label": "Kubernetes",
+            "note": "ReplicaSets for HA"
+          },
+          {
+            "label": "AWS",
+            "note": "S3 · CloudWatch",
+            "highlight": true
+          }
         ]
       }
     ],
     "stackLabel": "Technologies",
     "stack": [
-      { "title": "Backend & APIs", "items": ["PHP", "Laravel", "Node.js", "Python", "Laravel Reverb"] },
-      { "title": "Frontend", "items": ["JavaScript", "TypeScript", "React", "Vue.js", "Next.js", "HTML5 · CSS3"] },
-      { "title": "Cloud", "items": ["AWS S3", "Lambda", "CodePipeline", "CloudWatch", "Athena", "GCP"] },
-      { "title": "DevOps & workflow", "items": ["Docker", "Kubernetes", "GitHub Actions", "GitLab CI", "Git", "Agile / Scrum"] },
-      { "title": "Data", "items": ["MySQL", "PostgreSQL", "Looker Studio"] },
-      { "title": "Mobile & CMS", "items": ["Ionic 8", "WordPress", "Strapi"] }
+      {
+        "title": "Backend & APIs",
+        "items": [
+          "PHP",
+          "Laravel",
+          "Node.js",
+          "Python",
+          "Laravel Reverb"
+        ]
+      },
+      {
+        "title": "Frontend",
+        "items": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Vue.js",
+          "Next.js",
+          "HTML5 · CSS3"
+        ]
+      },
+      {
+        "title": "Cloud",
+        "items": [
+          "AWS S3",
+          "Lambda",
+          "CodePipeline",
+          "CloudWatch",
+          "Athena",
+          "GCP"
+        ]
+      },
+      {
+        "title": "DevOps & workflow",
+        "items": [
+          "Docker",
+          "Kubernetes",
+          "GitHub Actions",
+          "GitLab CI",
+          "Git",
+          "Agile / Scrum"
+        ]
+      },
+      {
+        "title": "Data",
+        "items": [
+          "MySQL",
+          "PostgreSQL",
+          "Looker Studio"
+        ]
+      },
+      {
+        "title": "Mobile & CMS",
+        "items": [
+          "Ionic 8",
+          "WordPress",
+          "Strapi"
+        ]
+      }
     ]
   },
   "certifications": {
@@ -317,56 +468,102 @@
     "notFound": "command not found: {command}. Type help to list what's available.",
     "helpTitle": "available commands:",
     "builtins": [
-      { "name": "help", "description": "show this help" },
-      { "name": "clear", "description": "clear the terminal" }
+      {
+        "name": "help",
+        "description": "show this help"
+      },
+      {
+        "name": "clear",
+        "description": "clear the terminal"
+      }
     ],
     "commands": [
       {
         "name": "whoami",
         "description": "who I am",
         "output": [
-          { "text": "Francisco Javier Restrepo", "tone": "accent" },
-          { "text": "Mid-level Frontend Developer · Colombia" },
-          { "text": "5+ years · React · Next.js · TypeScript", "tone": "comment" }
+          {
+            "text": "Francisco Javier Restrepo",
+            "tone": "accent"
+          },
+          {
+            "text": "Mid-level Full-Stack Developer · Cali, Colombia"
+          },
+          {
+            "text": "5+ years · Laravel · React · Vue.js · AWS",
+            "tone": "comment"
+          }
         ]
       },
       {
         "name": "experience",
         "description": "where I've worked",
         "output": [
-          { "text": "2023 — now  Company A · Frontend Lead", "tone": "accent" },
-          { "text": "2021 — 2023 Company B · Frontend Developer" },
-          { "text": "2019 — 2021 Company C · Web Developer" },
-          { "text": "(placeholder text, replace with your experience)", "tone": "comment" }
+          {
+            "text": "2022 — now   Geko Estudio · Full-Stack",
+            "tone": "accent"
+          },
+          {
+            "text": "2021 — 2022  Tucelular · Lead Web"
+          },
+          {
+            "text": "2019 — 2021  Sumapos Software · Web"
+          },
+          {
+            "text": "2018 — 2019  Asicamericas · IT Support"
+          }
         ]
       },
       {
         "name": "stack",
         "description": "technologies I use",
         "output": [
-          { "text": "Frontend      React · Next.js · TypeScript", "tone": "accent" },
-          { "text": "Styling       Tailwind CSS · Chakra UI" },
-          { "text": "Testing       Jest · Testing Library · Playwright" },
-          { "text": "Architecture  Clean Architecture · Atomic Design" }
+          {
+            "text": "Backend   PHP · Laravel · Node.js · Python",
+            "tone": "accent"
+          },
+          {
+            "text": "Frontend  React · Vue.js · Next.js · TypeScript"
+          },
+          {
+            "text": "Cloud     AWS · GCP · Docker · Kubernetes"
+          },
+          {
+            "text": "Data      MySQL · PostgreSQL"
+          }
         ]
       },
       {
-        "name": "ai",
-        "description": "how I use AI",
+        "name": "education",
+        "description": "studies and languages",
         "output": [
-          { "text": "I use AI assistants as a development copilot:", "tone": "accent" },
-          { "text": "· code review and guided refactors" },
-          { "text": "· test and documentation generation" },
-          { "text": "· quick prototypes I then validate by hand", "tone": "comment" }
+          {
+            "text": "Systems Engineering · UNIAJC (2023 — now)",
+            "tone": "accent"
+          },
+          {
+            "text": "Information Systems Technologist · SENA Cali (2013 — 2015)"
+          },
+          {
+            "text": "Native Spanish · Professional English",
+            "tone": "comment"
+          }
         ]
       },
       {
         "name": "contact",
         "description": "how to reach me",
         "output": [
-          { "text": "Email      Frank95299@gmail.com", "tone": "accent" },
-          { "text": "LinkedIn   linkedin.com/in/francisco-lenis" },
-          { "text": "GitHub     github.com/frankiller95" }
+          {
+            "text": "Email      Frank95299@gmail.com",
+            "tone": "accent"
+          },
+          {
+            "text": "LinkedIn   linkedin.com/in/francisco-lenis"
+          },
+          {
+            "text": "GitHub     github.com/frankiller95"
+          }
         ]
       }
     ]

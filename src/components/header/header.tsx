@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { navItems, site } from "@/config/site";
 import { getDictionary, getLocale } from "@/i18n/get-dictionary";
 import { LanguageSwitch } from "./language-switch";
@@ -18,8 +17,9 @@ export async function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-line bg-ink/80 backdrop-blur-md">
       <div className="mx-auto grid h-16 max-w-page grid-cols-[1fr_auto] items-center gap-4 px-4 md:grid-cols-[1fr_auto_1fr]">
-        <Link
-          href={`/${locale}`}
+        {/* Back to the top of the page (the hero is `#top`). */}
+        <a
+          href="#top"
           className="flex items-center gap-3 justify-self-start focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
         >
           <span
@@ -32,7 +32,7 @@ export async function Header() {
             {site.name}
           </span>
           <span className="sr-only sm:hidden">{site.name}</span>
-        </Link>
+        </a>
 
         <nav aria-label={dict.nav.label} className="hidden items-center gap-6 md:flex">
           {links.map((link) => (
