@@ -1,17 +1,10 @@
 import type { NextConfig } from "next";
 
+// Tailwind runs through PostCSS (postcss.config.mjs), so it works with both
+// Turbopack (`next dev`) and Webpack (`next build --webpack`, used for Hostinger).
 const nextConfig: NextConfig = {
-  /* config options here */
   cacheComponents: true,
   partialPrefetching: true,
-  turbopack: {
-    rules: {
-      "*.css": {
-        loaders: ["@tailwindcss/turbopack"],
-        as: "*.css",
-      },
-    },
-  },
 };
 
 export default nextConfig;
