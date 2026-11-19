@@ -11,6 +11,13 @@ const dictionaries: Record<Locale, () => Promise<Dictionary>> = {
   en: () => import("./dictionaries/en.json").then((m) => m.default),
 };
 
+/** Locale in the current URL (`/[lang]/...`). */
+export const getLocale = async (): Promise<Locale> => {
+  const locale = await lang();
+  if (!hasLocale(locale)) notFound();
+  return locale;
+};
+
 /** Dictionary for the locale in the current URL (`/[lang]/...`). */
 export const getDictionary = async (): Promise<Dictionary> => {
   const locale = await lang();

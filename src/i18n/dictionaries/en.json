@@ -1,26 +1,374 @@
 {
   "meta": {
-    "title": "frajarele.dev — Portfolio",
-    "description": "Software development portfolio."
+    "title": "Francisco Javier Restrepo — Portfolio",
+    "description": "Portfolio of Francisco Javier Restrepo, frontend developer."
   },
   "nav": {
-    "about": "About",
     "experience": "Experience",
     "projects": "Projects",
-    "contact": "Contact"
-  },
-  "hero": {
-    "greeting": "Hi, I'm",
-    "role": "Software engineer",
-    "cta": "View projects"
+    "architecture": "Architecture",
+    "contact": "Contact",
+    "menu": "Menu",
+    "label": "Main navigation"
   },
   "language": {
-    "label": "Language",
-    "es": "Spanish",
-    "en": "English"
+    "label": "Language"
   },
   "theme": {
     "toLight": "Switch to light mode",
     "toDark": "Switch to dark mode"
+  },
+  "hero": {
+    "badge": "Mid-level Frontend · available for jobs and freelance",
+    "greeting": "Hi, I'm",
+    "titleStart": "I build scalable interfaces for",
+    "titleHighlight": "real products.",
+    "description": "Mid-level Frontend Developer with 5+ years in React, Next.js and TypeScript. I've built for HR, banking, automotive and digital services, using Clean Architecture, automated testing and a focus on accessibility and performance. Try the terminal →",
+    "ctaPrimary": "View experience →",
+    "ctaSecondary": "LinkedIn ↗"
+  },
+  "highlights": {
+    "ariaLabel": "Key figures",
+    "items": [
+      { "value": "5+", "label": "years of experience" },
+      { "value": "6", "label": "companies and tech communities" },
+      { "value": "5", "label": "modules of an ATS in production" },
+      { "value": "E2E", "label": "unit and end-to-end tests" }
+    ]
+  },
+  "about": {
+    "eyebrow": "About me · How I work",
+    "titleStart": "I build with",
+    "titleHighlight": "whoever maintains the code next in mind.",
+    "description": "I like to understand the problem before writing a line: define the architecture, care about interface details and leave code the team can read, test and improve.",
+    "photoAlt": "Portrait of Francisco Javier Restrepo",
+    "badge": "Colombia · remote",
+    "steps": [
+      {
+        "title": "I understand the problem and design the solution",
+        "text": "I read the requirements and the Figma, and define architecture, types and the API contract before writing code."
+      },
+      {
+        "title": "I build with quality from the start",
+        "text": "Reusable components, strict typing, accessibility and tests as part of the work, not an afterthought."
+      },
+      {
+        "title": "I optimize my flow with good tools",
+        "text": "I use AI assistants for refactors and repetitive tests, and verify every change against real API responses before integrating it."
+      },
+      {
+        "title": "I share my decisions in code review",
+        "text": "I open clear, easy-to-review PRs, explain the reasoning behind each decision and discuss it with the team. I also review my teammates' PRs."
+      }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Experience",
+    "title": "Where I've worked",
+    "subtitle": "Six teams, four sectors and the same focus: maintainable interfaces that make it to production.",
+    "sectors": ["HR · ATS", "Banking", "Automotive", "Digital services"],
+    "current": "Current",
+    "items": [
+      {
+        "company": "Company A",
+        "period": "Mar 2026 – present",
+        "role": "Frontend Developer · React / Next.js",
+        "description": "Recruiting platform (ATS) and marketing site. Built 5 complete modules and took part in the migration to Clean Architecture.",
+        "tags": [
+          { "label": "React 19", "highlight": true },
+          { "label": "Clean Architecture", "highlight": true },
+          { "label": "TanStack Query" },
+          { "label": "Zustand" },
+          { "label": "Zod" },
+          { "label": "Playwright" }
+        ]
+      },
+      {
+        "company": "Community B",
+        "period": "Mar 2025 – Mar 2026",
+        "role": "Frontend Developer · React",
+        "description": "Business products in Scrum teams of 7 to 10 people, with real-time features and code review.",
+        "tags": [
+          { "label": "Next.js", "highlight": true },
+          { "label": "WebSockets" },
+          { "label": "Tailwind" },
+          { "label": "Jest" },
+          { "label": "Cypress" }
+        ]
+      },
+      {
+        "company": "Company C",
+        "period": "Dec 2022 – Feb 2025",
+        "role": "Software Developer · React / Next.js",
+        "description": "Enterprise and mobile apps for banking institutions: document management and digital signing.",
+        "tags": [
+          { "label": "Next.js", "highlight": true },
+          { "label": "React Native", "highlight": true },
+          { "label": "AWS S3" },
+          { "label": "Node.js" }
+        ]
+      },
+      {
+        "company": "Company D",
+        "period": "Apr 2022 – Jun 2022",
+        "role": "Frontend Developer · React / Vue",
+        "description": "SPA for appointments, maintenance and sales for car dealerships.",
+        "tags": [
+          { "label": "React", "highlight": true },
+          { "label": "Vue.js", "highlight": true },
+          { "label": "REST" },
+          { "label": "SCSS" }
+        ]
+      },
+      {
+        "company": "Company E",
+        "period": "Jan 2021 – Jan 2022",
+        "role": "Web Frontend Developer · React",
+        "description": "Development and maintenance of web applications with React and REST APIs.",
+        "tags": [
+          { "label": "React", "highlight": true },
+          { "label": "JavaScript" },
+          { "label": "REST" }
+        ]
+      },
+      {
+        "company": "Company F",
+        "period": "May 2020 – Sep 2020",
+        "role": "Web Developer · React / Vue",
+        "description": "Migrated client applications from Vue.js to React.js, with CI/CD.",
+        "tags": [
+          { "label": "Vue → React", "highlight": true },
+          { "label": "CI/CD" }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Selected work",
+    "title": "Projects and architecture",
+    "subtitle": "Filter by category and tap “View architecture” on each project to see how it's built and what I did.",
+    "filtersLabel": "Filter projects by category",
+    "filters": {
+      "all": "All",
+      "websites": "Websites",
+      "webapps": "Web development",
+      "apps": "Applications"
+    },
+    "showing": "Showing {count} projects",
+    "architecture": "Architecture",
+    "stack": "Stack",
+    "showArchitecture": "View architecture ↑",
+    "hideArchitecture": "Hide architecture ↓",
+    "repo": "Repo ↗",
+    "demo": "Demo ↗",
+    "items": {
+      "corporate-site": {
+        "title": "Corporate website",
+        "description": "Multilingual institutional site with blog, contact form and SEO optimization.",
+        "badges": ["Solo", "Real client"],
+        "architecture": "Next.js App Router · static pages · headless CMS",
+        "stack": "Next.js · TypeScript · Tailwind CSS · Contentful"
+      },
+      "product-landing": {
+        "title": "Product landing page",
+        "description": "Landing page with animations, A/B testing and fast loading (LCP under 2 s).",
+        "badges": ["Solo", "Live demo"],
+        "architecture": "Sections as components · optimized images · event-based analytics",
+        "stack": "Next.js · Tailwind CSS · Framer Motion"
+      },
+      "restaurant-site": {
+        "title": "Restaurant website",
+        "description": "Digital menu, online reservations and gallery, optimized for mobile.",
+        "badges": ["Freelance"],
+        "architecture": "Static site · validated form · reservations integration",
+        "stack": "Astro · TypeScript · Tailwind CSS"
+      },
+      "ats-platform": {
+        "title": "Recruiting platform",
+        "description": "Management of job openings, candidates and interviews with boards and notifications.",
+        "badges": ["Team of 8", "Real client"],
+        "architecture": "Layered Clean Architecture · Service → Use Case → Mapper",
+        "stack": "React · TypeScript · TanStack Query · Zustand"
+      },
+      "analytics-dashboard": {
+        "title": "Analytics dashboard",
+        "description": "Real-time metrics visualization with filters and CSV export.",
+        "badges": ["Team of 5", "Fintech"],
+        "architecture": "Atomic Design · data hooks · WebSockets",
+        "stack": "React · Recharts · Tailwind CSS"
+      },
+      "inventory-system": {
+        "title": "Inventory system",
+        "description": "Stock, supplier and purchase order control with roles and permissions.",
+        "badges": ["Team of 4"],
+        "architecture": "Domain modules · REST API · role-based permissions",
+        "stack": "Next.js · Zod · React Hook Form"
+      },
+      "booking-app": {
+        "title": "Booking app",
+        "description": "Appointment booking with calendar, reminders and payments.",
+        "badges": ["Solo", "iOS · Android"],
+        "architecture": "Stack navigation · global state · push notifications",
+        "stack": "React Native · Expo · TypeScript"
+      },
+      "fitness-app": {
+        "title": "Fitness tracking app",
+        "description": "Routines, progress and stats with offline sync.",
+        "badges": ["Team of 3"],
+        "architecture": "Offline-first · local database · background sync",
+        "stack": "React Native · SQLite · Zustand"
+      },
+      "delivery-app": {
+        "title": "Delivery app",
+        "description": "Real-time order tracking on a map for customers and couriers.",
+        "badges": ["Team of 6", "Logistics"],
+        "architecture": "Real time with WebSockets · maps · push notifications",
+        "stack": "React Native · Maps · Socket.io"
+      }
+    }
+  },
+  "architecture": {
+    "eyebrow": "How I build",
+    "title": "How I organize code",
+    "subtitle": "Two patterns I apply in production: layered architecture to organize the backend, and continuous deployment to ship it with high availability.",
+    "patterns": [
+      {
+        "eyebrow": "Backend",
+        "title": "Layered architecture",
+        "description": "I keep business logic separate from the framework: each layer has a single responsibility, so the database or the API can change without rewriting the rules.",
+        "steps": [
+          { "label": "Route / API", "note": "REST contract" },
+          { "label": "Controller", "note": "validates the request" },
+          { "label": "Service", "note": "business rule", "highlight": true },
+          { "label": "Repository", "note": "SQL queries" },
+          { "label": "Database", "note": "MySQL · PostgreSQL", "highlight": true }
+        ]
+      },
+      {
+        "eyebrow": "Infrastructure",
+        "title": "Deployment and high availability",
+        "description": "Every change goes through an automated pipeline and reaches production in replicated containers, so critical platforms stay up even if a replica fails.",
+        "steps": [
+          { "label": "Code", "note": "Git · pull request" },
+          { "label": "CI/CD", "note": "GitHub Actions · GitLab CI" },
+          { "label": "Containers", "note": "Docker", "highlight": true },
+          { "label": "Kubernetes", "note": "ReplicaSets for HA" },
+          { "label": "AWS", "note": "S3 · CloudWatch", "highlight": true }
+        ]
+      }
+    ],
+    "stackLabel": "Technologies",
+    "stack": [
+      { "title": "Backend & APIs", "items": ["PHP", "Laravel", "Node.js", "Python", "Laravel Reverb"] },
+      { "title": "Frontend", "items": ["JavaScript", "TypeScript", "React", "Vue.js", "Next.js", "HTML5 · CSS3"] },
+      { "title": "Cloud", "items": ["AWS S3", "Lambda", "CodePipeline", "CloudWatch", "Athena", "GCP"] },
+      { "title": "DevOps & workflow", "items": ["Docker", "Kubernetes", "GitHub Actions", "GitLab CI", "Git", "Agile / Scrum"] },
+      { "title": "Data", "items": ["MySQL", "PostgreSQL", "Looker Studio"] },
+      { "title": "Mobile & CMS", "items": ["Ionic 8", "WordPress", "Strapi"] }
+    ]
+  },
+  "certifications": {
+    "eyebrow": "Training",
+    "title": "Courses and certifications",
+    "subtitle": "Continuous learning in backend, JavaScript and Vue, alongside my university degree.",
+    "view": "View certificate ↗",
+    "items": {
+      "php-master": "PHP, SQL, object-oriented programming, MVC, Laravel, Symfony and WordPress.",
+      "js-master": "Modern JavaScript, jQuery, Angular and Node.js.",
+      "vue-advanced": "Advanced Vue.js."
+    },
+    "educationEyebrow": "Education",
+    "education": [
+      {
+        "title": "Systems Engineering",
+        "institution": "Universidad Antonio José Camacho",
+        "period": "2023 – ongoing"
+      },
+      {
+        "title": "Technologist in Information Systems Analysis and Development",
+        "institution": "SENA Cali",
+        "period": "2013 – 2015"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Looking for someone for your team or project?",
+    "description": "I'm open to remote or hybrid full-stack roles and freelance projects. Write to me and let's talk.",
+    "emailLabel": "Send an email to",
+    "linkedin": "LinkedIn ↗",
+    "github": "GitHub ↗",
+    "cv": "Download CV"
+  },
+  "footer": {
+    "built": "Built with Next.js + Tailwind"
+  },
+  "terminal": {
+    "ariaLabel": "Interactive terminal",
+    "inputLabel": "Type a command",
+    "placeholder": "type a command or tap one ↓",
+    "try": "try:",
+    "initialCommand": "whoami",
+    "hint": {
+      "before": "→ type ",
+      "command": "help",
+      "after": " to see more"
+    },
+    "notFound": "command not found: {command}. Type help to list what's available.",
+    "helpTitle": "available commands:",
+    "builtins": [
+      { "name": "help", "description": "show this help" },
+      { "name": "clear", "description": "clear the terminal" }
+    ],
+    "commands": [
+      {
+        "name": "whoami",
+        "description": "who I am",
+        "output": [
+          { "text": "Francisco Javier Restrepo", "tone": "accent" },
+          { "text": "Mid-level Frontend Developer · Colombia" },
+          { "text": "5+ years · React · Next.js · TypeScript", "tone": "comment" }
+        ]
+      },
+      {
+        "name": "experience",
+        "description": "where I've worked",
+        "output": [
+          { "text": "2023 — now  Company A · Frontend Lead", "tone": "accent" },
+          { "text": "2021 — 2023 Company B · Frontend Developer" },
+          { "text": "2019 — 2021 Company C · Web Developer" },
+          { "text": "(placeholder text, replace with your experience)", "tone": "comment" }
+        ]
+      },
+      {
+        "name": "stack",
+        "description": "technologies I use",
+        "output": [
+          { "text": "Frontend      React · Next.js · TypeScript", "tone": "accent" },
+          { "text": "Styling       Tailwind CSS · Chakra UI" },
+          { "text": "Testing       Jest · Testing Library · Playwright" },
+          { "text": "Architecture  Clean Architecture · Atomic Design" }
+        ]
+      },
+      {
+        "name": "ai",
+        "description": "how I use AI",
+        "output": [
+          { "text": "I use AI assistants as a development copilot:", "tone": "accent" },
+          { "text": "· code review and guided refactors" },
+          { "text": "· test and documentation generation" },
+          { "text": "· quick prototypes I then validate by hand", "tone": "comment" }
+        ]
+      },
+      {
+        "name": "contact",
+        "description": "how to reach me",
+        "output": [
+          { "text": "Email      Frank95299@gmail.com", "tone": "accent" },
+          { "text": "LinkedIn   linkedin.com/in/francisco-lenis" },
+          { "text": "GitHub     github.com/frankiller95" }
+        ]
+      }
+    ]
   }
 }

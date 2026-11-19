@@ -1,16 +1,26 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist_Mono, Inter, Space_Grotesk } from "next/font/google";
 import { lang } from "next/root-params";
 import { notFound } from "next/navigation";
+import { Footer } from "@/components/footer/footer";
+import { Header } from "@/components/header/header";
+import { InlineScript } from "@/components/inline-script";
 import { Provider } from "@/components/ui/provider";
 import { hasLocale, locales } from "@/i18n/config";
 import { getDictionaryFor } from "@/i18n/get-dictionary";
 import { themeScript } from "@/lib/theme";
 import "../globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
+});
+
+// Headings. TODO: swap for the display font from the reference design if it differs.
+const spaceGrotesk = Space_Grotesk({
+  variable: "--font-space-grotesk",
+  subsets: ["latin"],
+  weight: ["500", "700"],
 });
 
 const geistMono = Geist_Mono({
@@ -45,13 +55,17 @@ export default async function RootLayout({ children }: LayoutProps<"/[lang]">) {
     <html
       lang={locale}
       suppressHydrationWarning
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${inter.variable} ${spaceGrotesk.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
-        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+        <InlineScript html={themeScript} />
       </head>
       <body className="min-h-full flex flex-col">
-        <Provider>{children}</Provider>
+        <Provider>
+          <Header />
+          {children}
+          <Footer />
+        </Provider>
       </body>
     </html>
   );

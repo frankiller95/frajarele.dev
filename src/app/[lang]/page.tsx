@@ -1,18 +1,23 @@
-import { ThemeToggle } from "@/components/theme-toggle";
-import { getDictionary } from "@/i18n/get-dictionary";
+import { About } from "@/components/about/about";
+import { Architecture } from "@/components/architecture/architecture";
+import { Certifications } from "@/components/certifications/certifications";
+import { Contact } from "@/components/contact/contact";
+import { Experience } from "@/components/experience/experience";
+import { Hero } from "@/components/hero/hero";
+import { Highlights } from "@/components/highlights/highlights";
+import { Projects } from "@/components/projects/projects";
 
-export default async function Home() {
-  const dict = await getDictionary();
-
+export default function Home() {
   return (
-    <main className="flex flex-1 flex-col items-center justify-center gap-4 p-8 text-center">
-      <p className="text-lg text-foreground/70">{dict.hero.greeting}</p>
-      <h1 className="text-5xl font-semibold tracking-tight">frajarele</h1>
-      <p className="text-xl text-foreground/70">{dict.hero.role}</p>
-      <ThemeToggle
-        toLightLabel={dict.theme.toLight}
-        toDarkLabel={dict.theme.toDark}
-      />
+    <main className="flex-1">
+      <Hero />
+      <Highlights />
+      <About />
+      <Experience />
+      <Projects />
+      <Architecture />
+      <Certifications />
+      <Contact />
     </main>
   );
 }

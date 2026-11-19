@@ -1,27 +1,89 @@
 @import "tailwindcss";
 
-/* Dark mode is driven by next-themes (class on <html>), shared with Chakra UI. */
+/* Dark mode is driven by a class on <html> (see src/lib/theme.ts), shared with Chakra UI. */
 @custom-variant dark (&:where(.dark, .dark *));
 
+/*
+ * Design tokens. Light is the base; `.dark` overrides it.
+ * Tweak the palette here — every component reads these variables.
+ */
+/*
+ * "Hacker scheme" palette: #149414 #0e6b0e #649568 #9ccc9c #2b5329.
+ * Neutrals (ink/panel/fg) are green-tinted darks/lights added around it.
+ */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --ink: #f2f8f2; /* page background (also the text color on top of accent) */
+  --fg: #0e1f0e;
+  --panel: #ffffff;
+  --panel-2: #e8f1e8;
+  --line: #cbdccb;
+  --muted: #3f6a43;
+  --accent: #0e6b0e;
+  --accent-2: #2b5329;
+  --syntax-comment: #4d7a51;
 }
 
+/* The design is dark-first (see themeScript: dark unless the user chose light). */
 .dark {
-  --background: #0a0a0a;
-  --foreground: #ededed;
+  --ink: #090e09;
+  --fg: #e3f1e3;
+  --panel: #0e150e;
+  --panel-2: #131d13;
+  --line: #2b5329;
+  --muted: #649568;
+  --accent: #149414;
+  --accent-2: #9ccc9c;
+  --syntax-comment: #649568;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --color-ink: var(--ink);
+  --color-fg: var(--fg);
+  --color-panel: var(--panel);
+  --color-panel-2: var(--panel-2);
+  --color-line: var(--line);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
+  --color-syntax-comment: var(--syntax-comment);
+
+  --font-sans: var(--font-inter);
   --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-space-grotesk);
+
+  /* `max-w-page` */
+  --container-page: 74rem;
+}
+
+html {
+  /* Leaves room for the sticky header when jumping to #anchors. */
+  scroll-padding-top: 5rem;
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  background: var(--ink);
+  color: var(--fg);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+@keyframes terminal-line-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+}
+
+.terminal-line {
+  animation: terminal-line-in 0.25s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .terminal-line {
+    animation: none;
+  }
 }
